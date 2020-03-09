@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/LinearLayoutProgress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewPB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/learningProgress"
+            android:textSize="30sp" />
+
+        <com.SDP.signbits.TextProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="349dp"
+            android:layout_height="91dp"
+            android:progressTint="#82CA75"
+            android:scaleY="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutProgress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LinearLayoutProgress1">
+
+        <TextView
+            android:id="@+id/textViewPB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/QuizProgress"
+            android:textSize="30sp" />
+
+        <com.SDP.signbits.TextProgressBar
+            android:id="@+id/progressBar2"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="349dp"
+            android:layout_height="91dp"
+            android:progressTint="#03A9F4"
+            android:scaleY="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutProgress2">
+
+<!--        <TextView-->
+<!--            android:id="@+id/inputBoxTextHome"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:text="@string/Inputboxhint"-->
+<!--            android:textSize="16sp" />-->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:dropDownWidth="80dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/inputButton_home"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="SUBMIT" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textDictionary"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:clickable="true"-->
+<!--            android:contextClickable="true"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:text="@string/dictionary"-->
+<!--            android:textAlignment="textEnd"-->
+<!--            android:textColor="#00FFFFFF" />-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

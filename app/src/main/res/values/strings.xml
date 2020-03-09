@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">SignCoach</string>
+    <string name="title_Home">Home</string>
+    <string name="title_Learnmode">Learn</string>
+    <string name="title_Quizmode">Quiz</string>
+    <string name="title_Setting">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Quiz Strings -->
+    <string name="Quiz_Level">Level 1</string>
+    <string name="quizviewcontent">The image showing the letter</string>
+
+    <!-- Letter Strings -->
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+
+    <!-- Quiz page buttons-->
+    <string name="C2F">Character To Fingerspell</string>
+    <string name="F2C">Fingerspell To Character</string>
+
+    <!-- Quiz c2F page   <-->
+    <string name="TopBarTextC2F">Character to Fingerspell Quiz</string>
+    <!-- Quiz F2C page-->
+    <string name="quizpage">Back</string>
+    <string name="TopBarTextF2C">Fingerspell to Character Quiz</string>
+    <string name="InstructionF2C">Identify the fingerspell performed by the robot, and enter the corresponding sequence</string>
+
+    <!-- Home Page-->
+    <string name="Inputboxhint">Enter a character to check whether we support it!</string>
+    <string name="dictionary">Full supported dictionary can be found the setting panel</string>
+    <string name="HintTextF2C">Character Sequence the robot is fingerspelling</string>
+    <string name="learningProgress">Learning Progress</string>
+    <string name="QuizProgress">Quiz Challenge Progress</string>
+
+
+    <!-- Setting Page -->
+    <string name="setting1">Check for for Update</string>
+    <string name="setting2">Search for Robot</string>
+    <string name="setting3">Clear Cache</string>
+    <string name="setting4">Terms and Conditions</string>
+    <string name="setting5">Contact Us</string>
+    <string name="setting6">Clear Progress</string>
+
+<!--    Terms and Conditions-->
+    <string name="term">Terms and Conditions</string>
+</resources>
